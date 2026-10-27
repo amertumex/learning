@@ -6,5 +6,10 @@
 -- FROM film
 -- where length > 120;
 
-SELECT  count(*)
-FROM film;
+-- SELECT  count(*)
+-- FROM film;
+
+select first_name, last_name
+from customer
+order by last_name
+limit 10;
