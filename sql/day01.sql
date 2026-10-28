@@ -9,7 +9,8 @@
 -- SELECT  count(*)
 -- FROM film;
 
-select first_name, last_name
-from customer
-order by last_name
-limit 10;
+-- select first_name, last_name
+-- from customer
+-- order by last_name
+-- limit 10;
+
