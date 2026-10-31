@@ -33,9 +33,9 @@
 -- having (avg(length)) > (select avg(length)
 --     from film)
 
-select name, count(film_category.film_id) as "Count films"
-from category
-join film_category on category.category_id = film_category.category_id
-group by name
-order by "Count films" desc
-limit 5;
+-- select name, count(film_category.film_id) as "Count films"
+-- from category
+-- join film_category on category.category_id = film_category.category_id
+-- group by name
+-- order by "Count films" desc
+-- limit 5;
